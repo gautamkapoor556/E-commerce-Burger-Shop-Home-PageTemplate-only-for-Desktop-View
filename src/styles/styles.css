@@ -1,0 +1,647 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+:root {
+  --primary-color: #42200b;
+  --text-dark: #212529;
+  --max-width: 1200px;
+  --header-font-1: "Alfa Slab One", serif;
+  --header-font-2: "Bebas Neue", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  background-color: rgba(240, 189, 49, 0.965);
+  height: 800px;
+  justify-content: center;
+}
+
+#navbar {
+  width: 1170px;
+  background-color: rgba(240, 189, 49, 0.965);
+  height: 90px;
+}
+
+#navbar-div1 img {
+  height: 50px;
+}
+
+#flex {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  color: #42200B;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+#flex li a {
+  text-decoration: none;
+  color: #42200b;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+#banner-main-div {
+  display: flex;
+  justify-content: center;
+
+}
+
+#nav-content {
+  height: 600px;
+  width: 580px;
+}
+
+#nav-img2 {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#dot-content {
+  border: 3px dotted black;
+  height: 100px;
+  width: 400px;
+  margin-top: 200px;
+  justify-content: center;
+}
+
+#burger-time-text {
+  position: relative;
+  animation-name: header-burger-time-text;
+}
+
+#burger-time-text {
+  animation-fill-mode: forwards; 
+}
+
+
+#dot-in-div1 {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#content-h3 {
+  padding-top: 16px 32px;
+  margin-top: 13px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  color: #42200B;
+}
+
+#content-h4 {
+  padding-top: 16px 32px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  color: #42200B;
+}
+
+
+#content-text-1 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 70px;
+  color: #42200B;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-shadow: 0px 3px 0px white;
+}
+
+#content-text-2 {
+  font-family: "Alfa Slab One", serif;
+  font-size: 60px;
+  color: #42200B;
+  margin-left: 10px;
+  text-shadow: 0px 3px 0px white;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  z-index: 9;
+}
+
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+
+#div {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+
+#div-2 {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+#divv {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+#buttonn {
+  background-color: #FFC135;
+  color: #42200b;
+  font-family: "Bebas Neue", sans-serif;
+  font: 24px;
+  padding: 6px 32px;
+  margin: 0px 291.827px 16px 291.817px;
+  border: none;
+  font-size: x-large;
+}
+
+#font-style {
+  font-family: "Alfa Slab One", serif;
+  font-size: 48px;
+  color: #42200B;
+  text-shadow: 2px 2px 4px rgb(218, 169, 55);
+}
+
+#para {
+  font-family: "Montserrat", sans-serif;
+  font: 16px;
+  color: #212529;
+  margin: 0px 0px 32px;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+#div-3 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#in-div-1 {
+  height: 530px;
+  width: 390px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+#in-div-1:hover {
+  box-shadow: 0 0 5px;
+}
+
+#in-div-2 {
+  height: 530px;
+  width: 390px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+
+#in-div-2:hover {
+  box-shadow: 0 0 5px;
+}
+
+
+#in-div-3 {
+  height: 530px;
+  width: 390px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+#in-div-3:hover {
+  box-shadow: 0 0 5px;
+}
+
+#div-3-inner {
+  width: 1170px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cart-items-text {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  font: 24px;
+  margin: 0px 0px 16px;
+
+}
+
+#cart-p {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  font: 16px;
+  margin: 0px 0px 32px;
+}
+
+#cart-button {
+  padding: 16px 24px;
+  background-color: #DF1C1C;
+  font: 16px Arial;
+  color: #FFFFFF;
+  border: none;
+}
+
+#img-padding {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#aboutus-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#inner-div-aboutus {
+  padding-top: 20px;
+  width: 90%;
+
+  max-width: 1170px;
+  box-shadow: 0 0 2px;
+  box-sizing: border-box;
+}
+
+#inside-div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+#aboutus-content {
+  flex: 1;
+  padding: 20px;
+}
+
+#aboutus-discover {
+  color: #212529;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 32px;
+  /* Correct font property */
+  margin-bottom: 10px;
+}
+
+#aboutus-heading {
+  color: #42200B;
+  font-family: "Alfa Slab One", serif;
+  font-size: 48px;
+  /* Correct font property */
+  margin: 0 0 16px;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgb(218, 169, 55);
+}
+
+#aboutus-text {
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#aboutus-img {
+  flex: 0 0 auto;
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+#aboutus-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  #inside-div1 {
+    flex-wrap: wrap;
+
+    #aboutus-content {
+      flex: 1 1 100%;
+      padding: 10px;
+    }
+
+    #aboutus-img {
+      flex: 1 1 100%;
+      margin-left: 0;
+      margin-top: 20px; 
+    }
+
+    #aboutus-heading {
+      font-size: 36px;
+    }
+
+    #aboutus-text {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #aboutus-heading {
+      font-size: 28px;
+    }
+
+    #aboutus-text {
+      font-size: 12px;
+    }
+  }
+}
+
+#Special-main-div {
+  width: 100%;
+  height: 450px;
+  justify-items: center;
+}
+
+#special-inner-div {
+  width: 1170px;
+  height: 450px;
+  justify-items: center;
+  display: flex;
+}
+
+#left-div {
+  width: 550px;
+  height: 415px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../../public/images/burger1.webp);
+}
+
+#right-div {
+  margin-left: 20px;
+  width: 550px;
+  height: 450px;
+}
+
+#right-top-div {
+  width: 550px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-image: url(../../public/images/banner2.png);
+}
+
+#right-bottom-div {
+  width: 550px;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-image: url(../../public/images/banner2.png);
+}
+
+
+#left-div-p {
+  color: #FFFFFF;
+  font: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  padding-top: 5px;
+  padding-left: 30px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+#left-div-h {
+  color: #FFFFFF;
+  padding-left: 30px;
+  font-size: xx-large;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #42200b;
+  --secondary-color: #ffc135;
+  --text-dark: #212529;
+  --white: #ffffff;
+  --header-font-2: "Bebas Neue", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.reservation {
+  position: relative;
+  isolation: isolate;
+}
+
+.reservation__container {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.reservation__container h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--header-font-2);
+  color: var(--text-dark);
+}
+
+.reservation__container form {
+  display: grid;
+  gap: 1rem;
+  
+}
+
+.reservation__container input {
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: 1px solid ;
+  font-size: 1rem;
+  
+}
+.btn{
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: 1px solid ;
+  font-size: 1rem;
+}
+
+.reservation img {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+}
+
+.reservation__bg-1 {
+  left: 0;
+  bottom: 0;
+  width: clamp(100px, 25vw, 350px);
+}
+
+.reservation__bg-2 {
+  right: 0;
+  top: 0;
+  width: clamp(100px, 20vw, 250px);
+}
+#ee{
+  font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--header-font-2);
+    color: var(--text-dark);
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.section__header{
+  color: #42200B;
+  font-family: "Alfa Slab One", serif;
+  font-size: 48px;
+  /* Correct font property */
+  margin: 0 0 16px;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgb(218, 169, 55);
+}
+
+.section__header3{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--header-font-1);
+  color: var(--primary-color);
+  line-height: 3.75rem;
+  text-shadow: 2px 2px var(--secondary-color);
+}
+
+@media (width > 768px) {
+  .reservation__container form {
+    max-width: 600px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#footer-div {
+  background-image: url(../../public/images/footer-bg.png);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#btn {
+  background-color: #DF1C1C;
+  color: #FFFFFF;
+  font: 16px Arial;
+  margin-left: 10px;
+  width: 300px;
+  height: 45px;
+}
+
+#footer {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../public/images/footer-bg.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#logo-div-footer {
+  width: 1170px;
+  height: 405px;
+}
+
+#footerlogo {
+  height: 50px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+#footertext {
+  color: white;
+  padding-left: 15px;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+}
+
+#copyright {
+  display: flex;
+  height: 170px;
+  justify-content: center;
+}
+
+#copyright-text {
+  margin-top: 140px;
+  color: white;
+}
+
+#main-footer {
+  display: flex;
+}
+
+#footerlogos {
+  width: 550px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footerlocationtext {
+  color: white;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+#footerlogos-div {
+  margin-top: 20px;
+}
+
+#social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#social-icons a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#social-icons a:hover {
+  color: #f39c12;
+}
